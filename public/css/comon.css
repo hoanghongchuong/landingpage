@@ -1,0 +1,62 @@
+.li-inline-block > li{
+  position: relative;
+    padding-left: 30px;
+}
+
+.li-inline-block > li:before {
+    position: absolute !important;
+}
+.btn-mid{
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;}
+input.widget-content{padding:5px;}
+.btn-summit{
+    background-color: rgba(244, 67, 54, 1);
+    font-family: 'Open Sans';
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+    line-height: 22px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    text-transform: uppercase;
+    padding:10px 30px;
+    margin-top: 10px;
+}
+.text-center{
+    text-align: center;
+}
+.z1{
+    z-index: 1;}
+.btn-reg{
+    background-color: rgba(255,143,0,1);
+    font-family: 'Open Sans';
+    font-weight: 700;
+    line-height: 40px;
+    padding:1px 30px;
+    margin-top: 10px;
+    color:white;
+    min-width:200px;
+}
+#POPUP693{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    background-color: rgba(0,0,0,.7);
+}
+#POPUP693 .container{
+    top: auto !important;
+}
+.sticky-layout{
+    /*position:fixed;*/
+    /*bottom: 0;*/
+    z-index: 9;
+}
